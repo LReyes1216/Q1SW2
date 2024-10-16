@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1Practice5</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container1">
+	<h1><span style="color: #0a0a5c; font-family: georgia;">Club Membership</span> <span style="color: 	#8a0e41;">Form</span></h1>
+</div>
+
+<br>
+
+<div class="container2">
+
+	<form action="thankyou.html">
+		<label for="name" style="color: white; background-color: #8a0e41;">Name:</label>
+		<br>
+		<input type="text" id="name" name="name">
+
+		<br><br>
+		<label for="age" style="color: white; background-color:#0a0a5c;">Age:</label>
+		<br>
+		<input type="number" id="age" name="age">
+
+		<br><br>
+		<label for="gender" style="color: white; background-color: #8a0e41;">Gender:</label>
+		<br>
+		<input type="radio" id="male" name="gender">
+		<label for="male">Male</label>
+		<br>
+		<input type="radio" id="female" name="gender">
+		<label for="female">Female</label>
+
+		<br><br>
+
+		<label for="section" style="color: white; background-color: #0a0a5c;">Grade & Section:</label>
+		<br>
+		<select id="sections" name="sections">
+			<option value="9E">9-Emerald</option>
+			<option value="9R">9-Ruby</option>
+			<option value="9S">9-Sapphire</option>
+			<option value="9T">9-Topaz</option>
+		</select>
+
+		<br><br>
+
+		<label for="club" style="color: white; background-color: #8a0e41;">Choose a club:</label>
+		<br>
+		<select id="clubs" name="clubs">
+			<option value="DC">Dance Club</option>
+			<option value="MB">Marching Band</option>
+			<option value="GC">Glee Club</option>
+			<option value="CC">Communications Club</option>
+			<option value="BV">Basketball Varsity</option>
+		</select>
+
+		<br><br>
+
+		<label for="why">Why do YOU want to join this club?</label>
+		<br>
+		<textarea rows="4" cols="30" placeholder="Type your answer here..." required></textarea>
+
+		<br><br>
+		<input type="submit" id="submit" name="submit" value="Join Now!">
+	</form>	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+.container1{
+	background-color: white;
+	text-align: center;
+}
+
+.container2{
+	background-color: floralwhite;
+	width: 308px;
+	padding: 15px;
+	border: 2px dashed white;
+	box-shadow: 2px 2px 15px;
+	margin: auto;
+	}
+
+body{
+	background-image: url(https://obmontessori.orangeapps.ph/landing/obmontessori/images/fairview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+label{
+	font-style: italic;
+}
+#submit{
+	background-color: #8a0e41;
+	color:white;
+	border-Radius: 10px;
+	font-size: 20px;
+	font-family: georgia;
+}
